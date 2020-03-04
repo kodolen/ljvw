@@ -1,0 +1,117 @@
+@keyframes topToBot {
+
+    0% {
+
+        top: -10rem;
+        opacity: 0;
+        visibility: hidden;
+
+    }
+
+    100% {
+
+        top: 50%;
+        transform: translateY(-50%);
+        opacity: 1;
+        visibility: visible;
+
+    }
+
+}
+
+@keyframes botToTop {
+
+    0% {
+
+        top: 50%;
+        transform: translateY(-50%);
+        opacity: 1;
+        visibility: visible;
+
+    }
+
+    100% {
+
+        top: -10rem;
+        opacity: 0;
+        visibility: hidden;
+
+    }
+
+}
+
+@keyframes fadeIn {
+
+    0% {
+
+        opacity: 0;
+        visibility: hidden;
+
+    }
+
+    100% {
+
+        opacity: 1;
+        visibility: visible;
+
+    }
+
+}
+
+@keyframes fadeOut {
+
+    0% {
+
+        opacity: 1;
+        visibility: visible;
+
+    }
+
+    100% {
+
+        opacity: 0;
+        visibility: hidden;
+
+    }
+
+}
+
+@keyframes fillHeight {
+
+    0% {
+
+        height: 0;
+        opacity: 0;
+        visibility: hidden;
+
+    }
+
+    100% {
+
+        height: 50vh;
+        opacity: 1;
+        visibility: visible;
+
+    }
+
+}
+
+@keyframes fillHeightRev {
+
+    0% {
+
+        height: 50vh;
+        opacity: 1;
+        visibility: visible;
+
+    }
+
+    100% {
+
+        height: 0;
+        opacity: 0;
+        visibility: hidden;
+
+    }
+
+}

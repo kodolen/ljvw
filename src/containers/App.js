@@ -9,9 +9,7 @@ import Footer from './Footer';
 function App() {
   return (
     <div className="App">
-      <div className="nav">
-        <Navigation></Navigation>
-      </div>
+      <Navigation></Navigation>
       <div className="landings">
         <Landings></Landings>
       </div>
