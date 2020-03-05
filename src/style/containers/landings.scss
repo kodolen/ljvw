@@ -1,0 +1,50 @@
+.landings {
+
+    height: 100vh;
+    position: relative;
+
+    .side-text {
+
+        position: absolute;
+        top: 10rem;
+        left: 7rem;
+        transform: rotate(90deg);
+        transform-origin: top left;
+
+    }
+
+    .inner {
+
+        .intro {
+
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .intro-content {
+
+                margin-bottom: 1rem;
+
+                p {
+
+                    font-size: 2rem;
+    
+                }
+
+            }
+
+            .button-wrapper {
+
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: flex-start;
+
+            }
+
+        }
+
+    }
+
+}

@@ -4,8 +4,11 @@
 @import 'style/reset.scss';
 @import 'style/typography.scss';
 @import 'style/animations.scss';
+@import 'style/flex-grid.scss';
 
 //Containers
-@import 'style/containers/navigation.scss'
+@import 'style/containers/navigation.scss';
+@import 'style/containers/landings.scss';
 
 //Components
+@import 'style/components/buttons.scss';
