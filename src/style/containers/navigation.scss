@@ -2,8 +2,10 @@
     
     width: 100%;
     position: fixed;
-    color: $black;
+    color: $white;
     font-size: 1.6rem;
+    z-index: 99;
+    text-shadow: 1px 1px $black;
 
     .navigation_inner {
 
@@ -12,6 +14,8 @@
         padding: 4rem 0;
         background-color: transparent;
         position: relative;
+        opacity: 0;
+        animation: 600ms fadeIn 2000ms forwards;
 
         .navigation_menu {
 
@@ -74,6 +78,7 @@
         cursor: pointer;
         animation: 600ms botToTop forwards;
         right: 5rem;
+        z-index: 99;
 
         &.open {
 
@@ -151,7 +156,7 @@
             position: absolute;
             height: 0.4rem;
             width: 50%;
-            background: $black;
+            background: $white;
             opacity: 1;
             right: 10rem;
             -webkit-transform: rotate(0deg);

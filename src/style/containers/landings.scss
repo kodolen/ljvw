@@ -3,17 +3,118 @@
     height: 100vh;
     position: relative;
 
-    .side-text {
+    .side-text-wrapper {
 
         position: absolute;
-        top: 10rem;
-        left: 7rem;
-        transform: rotate(90deg);
-        transform-origin: top left;
+        width: 8rem;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        animation: 2000ms fillHeightLandings forwards;
+
+        .side-text {
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+            white-space: nowrap;
+    
+        }
+
+        @media (max-width: $mobile) {
+
+            width: 6rem;
+
+        }
+
+    }
+
+    .foreground {
+
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 70%;
+        background-color: $white;
+        z-index: -1;
+        transform: skew(15deg);
+
+        @media (max-width: $mobile) {
+
+            transform: skew(10deg);
+
+        }
+
+    }
+
+    .background {
+
+        position: absolute;
+        right: 0;
+        height: 100%;
+        width: 40%;
+        z-index: -2;
+        display: flex;
+        justify-content: flex-end;
+        overflow: hidden;
+        opacity: 0;
+        animation: 2000ms fillHeightLandings forwards;
+
+        @media (max-width: $desktop-small) {
+
+            width: 80%;
+
+        }
+
+
+        @media (max-width: $tablet) {
+
+            width: 70%;
+
+        }
+
+        @media (max-width: $mobile) {
+
+            width: 60%;
+
+        }
+
+
+        img {
+
+            position: absolute;
+            top: 2rem;
+            width: 100%;
+            transform: scale(1.3);
+
+            @media (max-width: $desktop-small) {
+
+                width: 800px;
+                right: -15rem;
+                
+            }
+
+            @media (max-width: $tablet) {
+
+                width: 700px;
+
+            }
+
+            @media (max-width: $mobile) {
+
+                width: 500px;
+                right: -19rem;
+            }
+
+        }
 
     }
 
     .inner {
+
+        margin-top: 0;
 
         .intro {
 
@@ -21,6 +122,8 @@
             display: flex;
             justify-content: center;
             flex-direction: column;
+            opacity: 0;
+            animation: 600ms fadeIn 2000ms forwards;
 
             .intro-content {
 
@@ -29,6 +132,18 @@
                 p {
 
                     font-size: 2rem;
+
+                    @media (max-width: $tablet) {
+
+                        font-size: 1.6rem;
+                
+                    }
+
+                    @media (max-width: $tablet) {
+
+                        font-size: 1.2rem;
+                
+                    }
     
                 }
 
