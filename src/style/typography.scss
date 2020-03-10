@@ -79,6 +79,15 @@ h1 {
 
 }
 
+
+h3 {
+
+    font-family: 'semibold';
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+
+}
+
 .thin-title {
 
     font-family: 'light';
@@ -178,5 +187,33 @@ h1 {
 .bold {
 
     font-family: 'semibold';
+
+}
+.footer-text {
+
+    font-family: 'light';
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+
+}
+
+.index-name {
+
+    font-family: 'semibold';
+    font-size: 1.4rem;
+    line-height: 2rem;
+
+    @media (max-width: $tablet) {
+
+        font-size: 0.8rem;
+
+    }
+
+}
+
+.footer-bottom-text {
+
+    font-family: 'light';
+    font-size: 1rem;
 
 }
