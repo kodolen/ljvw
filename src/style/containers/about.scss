@@ -1,0 +1,35 @@
+.about {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8rem 0;
+
+    .button-wrapper {
+
+        display: flex;
+        justify-content: center;
+
+        .button {
+
+            margin-right: 0;
+
+        }
+
+    }
+
+    .hl-text,
+    .hl-subtext {
+
+        padding-bottom: 2rem;
+        text-align: center;
+
+    }
+
+    @media (max-width: $mobile) {
+
+        padding: 4rem 0;
+
+    }
+
+}

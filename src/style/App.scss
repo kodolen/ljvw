@@ -13,8 +13,13 @@ $mobile: 480px;
     .inner {
 
         width: 70%;
-        margin-left: 15%;
-        margin-top: 2rem;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 2rem;
+
+        &:nth-child(odd){
+            background-color: $grey;
+        }
 
     }
 

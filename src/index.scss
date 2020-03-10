@@ -1,6 +1,6 @@
 //Main stylesheets
-@import 'style/App.scss';
 @import 'style/colors.scss';
+@import 'style/App.scss';
 @import 'style/reset.scss';
 @import 'style/typography.scss';
 @import 'style/animations.scss';
@@ -9,6 +9,7 @@
 //Containers
 @import 'style/containers/navigation.scss';
 @import 'style/containers/landings.scss';
+@import 'style/containers/about.scss';
 
 //Components
 @import 'style/components/buttons.scss';

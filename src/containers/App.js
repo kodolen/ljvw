@@ -13,11 +13,15 @@ function App() {
       <Landings></Landings>
       <div className="inner">
         <About></About>
-        <Cases></Cases>
-        <Contact></Contact>
-        <Footer></Footer>
       </div>
-    </div>
+      <div className="inner">
+        <Cases></Cases>
+      </div>
+      <div className="inner">
+        <Contact></Contact>
+      </div>
+      <Footer></Footer>
+    </div >
   );
 }
 
