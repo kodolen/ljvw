@@ -14,9 +14,7 @@ function App() {
       <div className="inner">
         <About></About>
       </div>
-      <div className="inner">
-        <Cases></Cases>
-      </div>
+      <Cases></Cases>
       <div className="inner">
         <Contact></Contact>
       </div>

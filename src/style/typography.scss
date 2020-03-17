@@ -88,6 +88,21 @@ h3 {
 
 }
 
+h4 {
+
+    font-family: 'semibold';
+    font-size: 3rem;
+    line-height: 3.4rem;
+
+    @media (max-width: $tablet) {
+
+        font-size: 2rem;
+        line-height: 2.4rem;
+
+    }
+
+}
+
 .thin-title {
 
     font-family: 'light';
@@ -215,5 +230,36 @@ h3 {
 
     font-family: 'light';
     font-size: 1rem;
+
+}
+
+.case-sub {
+
+    font-family: 'light';
+    font-size: 1.4rem;
+    line-height: 1.2rem;
+    text-transform: uppercase;
+
+    @media (max-width: $tablet) {
+
+        font-size: 0.8rem;
+        line-height: 0.6rem;
+
+    }
+
+}
+
+.case-text {
+
+    font-family: "light";
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+
+    @media (max-width: $tablet) {
+
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+
+    }
 
 }
