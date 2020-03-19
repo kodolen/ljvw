@@ -8,20 +8,21 @@ import Footer from './Footer';
 
 function App() {
   return (
-    <div className="App">
-      <div className="nav">
-        <Navigation></Navigation>
-      </div>
-      <div className="landings">
-        <Landings></Landings>
-      </div>
-      <div className="inner">
-        <About></About>
-        <Cases></Cases>
-        <Contact></Contact>
-        <Footer></Footer>
-      </div>
-    </div>
+    // <div className="App">
+    //   <div className="nav">
+    //     <Navigation></Navigation>
+    //   </div>
+    //   <div className="landings">
+    //     <Landings></Landings>
+    //   </div>
+    //   <div className="inner">
+    //     <About></About>
+    //     <Cases></Cases>
+    //     <Contact></Contact>
+    //     <Footer></Footer>
+    //   </div>
+    // </div>
+    <h1>Under construction</h1>
   );
 }
 
