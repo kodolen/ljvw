@@ -6,6 +6,20 @@ import Cases from './Cases';
 import Contact from './Contact';
 import Footer from './Footer';
 
+import publicIP from 'react-native-public-ip';
+ 
+publicIP()
+  .then(ip => {
+    console.log(ip);
+      if(ip === '5.132.3.14'){
+        window.location.replace("https://www.ljvw.nl");
+      }
+  })
+  .catch(error => {
+    console.log(error);
+    // 'Unable to get IP address.'
+  });
+
 function App() {
   return (
     <div className="App">
