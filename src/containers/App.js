@@ -11,7 +11,7 @@ import publicIP from 'react-native-public-ip';
 publicIP()
   .then(ip => {
     console.log(ip);
-      if(ip === '5.132.3.14' || '143.179.24.250'){
+      if(ip === ('5.132.3.14' || '143.179.24.250')){
         console.log("Access granted!");
       }
       else {
