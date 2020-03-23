@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import BG from '../assets/background-len.jpg';
+import {Waypoint} from "react-waypoint";
 
 class Landings extends Component {
     render() {

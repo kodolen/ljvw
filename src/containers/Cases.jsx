@@ -27,7 +27,7 @@ class Cases extends Component {
     render() {
 
         return (
-            <div className="cases-container">
+            <div className="cases-container" id="js-cases">
                 {this.state.cases.map((items, i) => (
                     <div className="case-container">
                         <div className="case-background" style={{ backgroundImage: `url(${items.fields.background.fields.file.url})` }}>

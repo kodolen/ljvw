@@ -149,6 +149,17 @@
             }
     
         }
+
+        &.change-color {
+
+
+            span {
+
+                background: $blue;
+
+            }
+
+        }
     
         span {
     
@@ -240,6 +251,13 @@
             }
 
         }
+
+    }
+
+    a,
+    .anchor-link {
+
+        color: $white;
 
     }
 
