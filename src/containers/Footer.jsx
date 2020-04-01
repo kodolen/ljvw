@@ -13,7 +13,7 @@ class Footer extends Component {
                 <div className="row">
                     <div className="col-sm-5 col-xs-12">
                         <h3>LJVW</h3>
-                        <p className="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p className="footer-text">Ik ben Lennart, ik ben gespecialiseerd in het realiseren van professionele, op maat gemaakte websites.</p>
                         <div className="site-index">
                             <span className="index-name">HOME</span>
                             <span className="index-name">OVER MIJ</span>
@@ -22,8 +22,8 @@ class Footer extends Component {
                         </div>
                     </div>
                     <div className="col-sm-5 off-sm-1 col-xs-12">
-                        <h3>Kanalen</h3>
-                        <p className="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h3>Andere kanalen</h3>
+                        {/* <p className="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
                         <div className="site-index">
                             <span className="index-name"><a href="#"><img src={Mail} alt="" /></a></span>
                             <span className="index-name"><a href="#"><img src={LinkedIN} alt="" /></a></span>

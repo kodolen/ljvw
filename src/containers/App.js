@@ -29,7 +29,7 @@ function App() {
     <div className="App">
       <Navigation></Navigation>
       <Landings></Landings>
-      <div className="content-container">
+      {/* <div className="content-container">
         <Waypoint topOffset="5%" onEnter={() => {
           let currentElement = document.getElementById("navigation_hamburger");
           currentElement.classList.remove('change-color');
@@ -39,7 +39,7 @@ function App() {
           let currentElement = document.getElementById("navigation_hamburger");
           currentElement.classList.add('change-color');
         }}
-        />
+        /> */}
         <div className="inner" id="js-about">
           <About></About>
         </div>
@@ -47,7 +47,7 @@ function App() {
         <div className="inner" id="js-contact">
           <Contact></Contact>
         </div>
-      </div>
+      {/* </div> */}
       <Footer></Footer>
     </div >
   );

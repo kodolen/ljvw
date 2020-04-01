@@ -19,8 +19,8 @@ class Landings extends Component {
                             <div className="intro">
                                 <div className="intro-content">
                                     <span className="thin-title">Freelance</span>
-                                    <h1>DESIGNER & DEVELOPER</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <h1>WEB DESIGNER & DEVELOPER</h1>
+                                    <p>Ik ben Lennart, ik ben gespecialiseerd in het realiseren van professionele, op maat gemaakte websites.</p>
                                 </div>
                                 <div className="button-wrapper">
                                     <div className="button primary"><span>Contact</span></div>
